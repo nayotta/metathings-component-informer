@@ -1,0 +1,27 @@
+debug:
+  name: gossiper  # module name
+  service:
+    scheme: mtp
+    host: 0.0.0.0
+    port: 5555
+  verbose: true
+  log:
+    level: debug
+  heartbeat:
+    interval: 15
+  credential:
+    domain: default
+    id: <credential-id>
+    secret: <credential-secret>
+  service_endpoint:
+    device:
+      address: <device-address>
+    default:
+      address: <metathings-address>
+  gossipers:
+  - sources:
+    - driver: <source-driver>
+      ...
+    destinations:
+    - driver: <destination-driver>
+      ...
