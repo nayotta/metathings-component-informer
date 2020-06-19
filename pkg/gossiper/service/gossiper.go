@@ -1,10 +1,11 @@
 package gossiper_service
 
 import (
-	cfg_helper "github.com/nayotta/metathings/pkg/common/config"
-	component "github.com/nayotta/metathings/pkg/component"
 	"github.com/spf13/cast"
 	"github.com/stretchr/objx"
+
+	cfg_helper "github.com/nayotta/metathings/pkg/common/config"
+	component "github.com/nayotta/metathings/pkg/component"
 )
 
 /*
